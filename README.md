@@ -32,4 +32,4 @@ yarn test
 1. Count patches mismatching actual patches. 
 2. Data with patches from the previous run, override the next run result.
 3. Service returning 500 instead of 400 with payload with empty keys.
-4 According to the specification of the coordinate identifier (location defined by identifying the bottom left corner of grid positions), the actual room size must be [4,4] instead of  [5,5].
+4. According to the specification of the coordinate identifier (location defined by identifying the bottom left corner of grid positions), the actual room size must be [4,4] instead of  [5,5].
