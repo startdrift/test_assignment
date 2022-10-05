@@ -50,12 +50,18 @@ const randomPatches = {
     "instructions": fullSweep
 };
 
+const emptyKeysArray = {
+    "roomSize": [],
+    "coords": [],
+    "patches": [],
+    "instructions": ""
+};
+
 const sweepFullRoomExpectedResponse = JSON.stringify([4, 4]);
 const sweepFullRoomBackAndForthExpectedResponse = JSON.stringify([0, 0]);
 const sweepFullRoomWithExtraStepsExpectedResponse = JSON.stringify([4, 4]);
 const countAllPatchesExpectedResponse = JSON.stringify({ coords: [4, 4], patches: 25 });
-const randomPatchesExpectedResponse = JSON.stringify({ coords: [4, 4], patches: 3 });
-
+const randomPatchesExpectedResponse = JSON.stringify({ coords: [4, 4], patches: 3 })
 
 module.exports = {
     sweepFullRoom,
@@ -67,5 +73,6 @@ module.exports = {
     countAllPatches,
     countAllPatchesExpectedResponse,
     randomPatches,
-    randomPatchesExpectedResponse
+    randomPatchesExpectedResponse,
+    emptyKeysArray
 };
