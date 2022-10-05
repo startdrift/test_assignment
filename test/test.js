@@ -45,6 +45,6 @@ describe('Test Roomba', function () {
     });
     it('Verify Bad Request 400 response with an empty array for all keys', async () => {
         actualResponse = await apiCall.runRoomba(emptyKeysArray);
-        assert.equal(JSON.stringify(actualResponse.status), 500);
+        assert.equal(JSON.stringify(actualResponse.status), 400);
     });
 });
