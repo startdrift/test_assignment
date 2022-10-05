@@ -1,7 +1,7 @@
 # Test Assignment
 
 
-### Clone repository
+### Clone test repository
 ```sh
 git clone https://github.com/startdrift/test_assignment.git
 ```
